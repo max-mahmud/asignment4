@@ -10,7 +10,7 @@
 }
 
 .my-form{
-    padding: 10px 30px 20px 30px!important;
+    padding: 30px !important;
     border-top: 5px solid #eb3b5a;
     box-shadow: 2px 2px 7px rgb(180, 182, 182);
     margin-bottom: 20px !important;
@@ -25,7 +25,44 @@
     font-size: 16px ;
     font-weight: 500;
 }
-
+.register .form_btn{
+    border-radius: 2px !important;
+}
+.rg_or_style{
+    display: block;
+    text-align: center; 
+    margin: 10px 0;
+    position: relative;
+    font-size: 24px;
+    font-size: 600 !important;
+}
+.rg_or_style::after{
+    position: absolute;
+    content: '';
+    top: 48%;
+    left: 0;
+    background-color: #fc5c65;
+    width: 45%;
+    height: 3px;
+}
+.rg_or_style::before{
+    position: absolute;
+    content: '';
+    top: 48%;
+    right: 0;
+    background-color: #fc5c65;
+    width: 45%;
+    height: 3px;
+}
+.rg_form_btn{
+    background-color: #fc5c65 !important;
+    border: #fc5c65 2px solid !important;
+    outline: #fc5c65 !important;
+    width: 100%;
+    font-size: 17px !important;
+    padding: 4px 10px !important;
+    border-radius: 2px !important;
+}
 .register .form-label{
     font-size: 16px;
     font-weight: 500;

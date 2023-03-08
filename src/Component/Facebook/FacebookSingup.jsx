@@ -27,7 +27,7 @@ const FacebookSingup = () => {
       }
   return (
     <>
-      <Button  className='fb_btn btn' type="submit" onClick={()=> signInWithFacebook()}>Continue With Facebook</Button>
+      <Button  className='fb_btn btn ' type="submit" onClick={()=> signInWithFacebook()}>Continue With Facebook</Button>
     </>
   )
 }

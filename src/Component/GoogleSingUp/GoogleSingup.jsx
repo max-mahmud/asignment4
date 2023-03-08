@@ -26,7 +26,7 @@ const GoogleSingup = () => {
     
   return (
     <>
-      <Button className='btn google_btn w-100' onClick={()=>signInWithGoogle()}>Continue With Google</Button>
+      <Button className='btn google_btn ' onClick={()=>signInWithGoogle()}>Continue With Google</Button>
     </>
   )
 }

@@ -12,7 +12,7 @@
     color: #2d98da !important;
 }
 .my_form{
-    padding: 10px 30px 20px 30px!important;
+    padding: 30px !important;
     border-top: 5px solid #45aaf2;
     box-shadow: 2px 2px 7px rgb(185, 185, 185);
     margin-bottom: 20px !important;
@@ -27,15 +27,15 @@
     font-size: 19px ;
     font-weight: 500;
 }
-.form_btn{
+.fb_form_btn{
     background-color: #45aaf2 !important;
     border: #45aaf2 2px solid !important;
     outline: #45aaf2 !important;
     width: 100%;
     font-size: 17px !important;
     padding: 4px 10px !important;
+    border-radius: 2px !important;
 }
-
 .singin .form-label{
     font-size: 16px;
     font-weight: 500;
@@ -46,7 +46,7 @@
 .singin.form-control:focus {
     border-color: #45aaf2 !important;
 }
-.or_style{
+.fb_or_style{
     display: block;
     text-align: center; 
     margin: 10px 0;
@@ -54,7 +54,7 @@
     font-size: 24px;
     font-size: 600 !important;
 }
-.or_style::after{
+.fb_or_style::after{
     position: absolute;
     content: '';
     top: 48%;
@@ -63,7 +63,7 @@
     width: 45%;
     height: 3px;
 }
-.or_style::before{
+.fb_or_style::before{
     position: absolute;
     content: '';
     top: 48%;

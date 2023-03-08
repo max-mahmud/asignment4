@@ -49,10 +49,10 @@ const Register = () => {
                     <div>
                         <p>Already Have an Account? <NavLink to={'/singin'}className='nav-link my-link'>Sing In!</NavLink> </p>
                     </div>
-                    <Button className='form_btn' type="submit" onClick={() => createUserWithEmailAndPassword(email, password)}>
+                    <Button className='rg_form_btn' type="submit" onClick={() => createUserWithEmailAndPassword(email, password)}>
                         Submit
                     </Button>
-                    <span className='or_style'>OR</span>
+                    <span className='rg_or_style'>OR</span>
                     <GoogleSingup />
                     <FacebookSingup />
                     <Githubsingup />

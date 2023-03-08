@@ -20,12 +20,14 @@ const Contact = () => {
                         action="https://formspree.io/f/mzbqgqrz"
                         method="POST"
                         >
+                        <div className="flex_div">
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Control type="text" name='name' placeholder="Enter Name" required />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Control type="email" name='email' placeholder="Enter Email" required />
                         </Form.Group>
+                        </div>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Control type="text" name='subject' placeholder="Subject" required />
                         </Form.Group>

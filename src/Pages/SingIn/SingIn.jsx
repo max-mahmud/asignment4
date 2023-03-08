@@ -50,9 +50,9 @@ const Singin = () => {
         </Form.Group>
         <div id='message-div'></div>
         <p> Have No Account? <NavLink to={'/register'}className='nav-link my-link'>Register!</NavLink> </p>
-        <Button className='form_btn' type="submit" onClick={()=> signInWithEmailAndPassword(email, password)}>
+        <Button className='fb_form_btn' type="submit" onClick={()=> signInWithEmailAndPassword(email, password)}>
             Sing In </Button>
-            <span className='or_style'>OR</span>
+            <span className='fb_or_style'>OR</span>
             <GoogleSingup />
             <FacebookSingup />
             <Githubsingup />
