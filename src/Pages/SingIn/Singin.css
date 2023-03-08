@@ -1,0 +1,79 @@
+.singin{
+    margin-top: 90px;
+    min-height: calc(100vh - 75px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-link{
+    display: inline-block !important;
+    margin-left: 11px;
+    color: #2d98da !important;
+}
+.my_form{
+    padding: 10px 30px 20px 30px!important;
+    border-top: 5px solid #45aaf2;
+    box-shadow: 2px 2px 7px rgb(185, 185, 185);
+    margin-bottom: 20px !important;
+}
+.my_form h2{
+    margin-bottom: 20px ;
+    color: #45aaf2;
+    font-size: 36px ;
+    font-weight: 500;
+}
+.my_form p{
+    font-size: 19px ;
+    font-weight: 500;
+}
+.form_btn{
+    background-color: #45aaf2 !important;
+    border: #45aaf2 2px solid !important;
+    outline: #45aaf2 !important;
+    width: 100%;
+    font-size: 17px !important;
+    padding: 4px 10px !important;
+}
+
+.singin .form-label{
+    font-size: 16px;
+    font-weight: 500;
+}
+.singin .form-control{
+    padding: 4px 10px !important;
+}
+.singin.form-control:focus {
+    border-color: #45aaf2 !important;
+}
+.or_style{
+    display: block;
+    text-align: center; 
+    margin: 10px 0;
+    position: relative;
+    font-size: 24px;
+    font-size: 600 !important;
+}
+.or_style::after{
+    position: absolute;
+    content: '';
+    top: 48%;
+    left: 0;
+    background-color: #45aaf2;
+    width: 45%;
+    height: 3px;
+}
+.or_style::before{
+    position: absolute;
+    content: '';
+    top: 48%;
+    right: 0;
+    background-color: #45aaf2;
+    width: 45%;
+    height: 3px;
+}
+@media screen and (max-width: 576px) {
+    .singin{
+        padding: 20px;
+    }
+}

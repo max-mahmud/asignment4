@@ -1,0 +1,38 @@
+[
+    {
+      "id": "6406f47808f49f0e372fdb17",
+      "image":"https://images.pexels.com/photos/4974914/pexels-photo-4974914.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "heading": "Front-end Developer",
+      "text": "Most master’s degrees take two years to complete, and you should complete a bachelor’s degree ."
+    },
+    {
+      "id": "6406f478d1048a6ccf34f8b9",
+      "image": "https://plus.unsplash.com/premium_photo-1664476576804-dae708f9033e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "heading": "Full-stack Developer",
+      "text": "We bring the right people together to challenge established thinking and drive transform in 2020"
+    },
+    {
+      "id": "6406f47825f011b04a858636",
+      "image": "https://images.pexels.com/photos/1181376/pexels-photo-1181376.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "heading": "Database security",
+      "text": "On average, professionals who earn a master of computer science in web development earn web"
+    },
+    {
+      "id": "6406f478263827e34190f127",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTY0fHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "heading": "UI/UX Designer",
+      "text": "A degree concentration allows you to choose a particular focus within the area of web development."
+    },
+    {
+      "id": "6406f4786f9c1f68c7f65775",
+      "image": "https://images.pexels.com/photos/7363/startup-photos.jpg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "heading": "Data Analyst",
+      "text": "If you’re looking to switch careers without completing a whole new degree, coding bootcamps"
+    },
+    {
+        "id": "6406f4786f9c1f68c7f65777",
+        "image": "https://images.pexels.com/photos/3184319/pexels-photo-3184319.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+        "heading": "Marketing",
+        "text": "Web developers enjoy a wealth of benefits, including the potential for remote work. These which is"
+      }
+  ]

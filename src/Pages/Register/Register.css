@@ -1,0 +1,44 @@
+.register{
+    margin-top: 90px;
+    min-height: calc(100vh - 75px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.massageDiv{
+    color: #2bcbba !important;
+}
+
+.my-form{
+    padding: 10px 30px 20px 30px!important;
+    border-top: 5px solid #eb3b5a;
+    box-shadow: 2px 2px 7px rgb(180, 182, 182);
+    margin-bottom: 20px !important;
+}
+.my-form h2{
+    margin-bottom: 20px ;
+    color: #eb3b5a !important;
+    font-size: 35px ;
+    font-weight: 500;
+}
+.my-form p{
+    font-size: 16px ;
+    font-weight: 500;
+}
+
+.register .form-label{
+    font-size: 16px;
+    font-weight: 500;
+}
+.register .form-control:focus {
+    border-color: #45aaf2 !important;
+}
+.register .form-control{
+    padding: 4px 10px !important;
+}
+
+@media screen and (max-width: 576px) {
+    .register{
+        padding: 20px;
+    }
+}

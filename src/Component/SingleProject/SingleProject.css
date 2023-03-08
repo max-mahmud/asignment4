@@ -1,0 +1,23 @@
+.project_text{
+    padding: 10px;
+    text-align: center;
+}
+.project_text h3{
+    font-size: 44px;
+    margin-bottom: 10px;
+    color: #20bf6b;
+}
+.project_text h3:last-child{
+    color: black !important;
+}
+.project_text h4{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.479);
+}
+
+@media screen and (max-width:991px){
+    .project_text h3{
+        font-size: 36px;
+        margin-bottom: 0px;
+    }
+}

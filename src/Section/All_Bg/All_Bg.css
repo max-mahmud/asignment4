@@ -1,0 +1,44 @@
+
+.all_bg img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: center;
+}
+.all_bg{
+    position: relative;
+}
+.all_bg::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.all_bg h2{
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 40px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 44;
+    color: #fff;
+}
+.all_bg h4{
+    text-transform: capitalize;
+    position: absolute;
+    font-size: 18px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 44;
+    color: #fff;
+}
+@media screen and (max-width:991px){
+    .all_bg h2{
+        font-size: 32px;
+    }
+}

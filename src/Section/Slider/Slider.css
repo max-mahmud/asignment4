@@ -1,0 +1,120 @@
+.carousel img{
+    height: 100vh;
+    width: 100vw;
+    z-index: -99;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel{
+    position: relative;
+}
+.carousel::after{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.carousel-control-next, .carousel-control-prev {
+    border-radius: 50%;
+    width: 80px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    height: 80px !important;
+    transition: .3s ease-in-out !important;
+}
+.carousel-control-next:hover, .carousel-control-prev:hover{
+    background-color: rgba(252, 247, 247, 0.15) !important;
+}
+.carousel-caption{
+    z-index: 999 !important;
+    margin-bottom: 75px;
+}
+.carousel-caption h5{
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(248, 248, 242, 0.644);
+}
+.carousel-caption p{
+    color: rgba(248, 248, 242, 0.644);
+}
+.carousel-caption h2{
+    margin: 13px 0;
+    font-size: 38px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    z-index: 100 !important;
+}
+.carousel-control-prev {
+    z-index: 999 !important;
+    left: 80px !important;
+}
+.carousel-control-next{
+    right: 80px !important;
+    z-index: 999 !important;
+}
+.carousel-indicators button{
+    height: 5px !important;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 991px){
+    .carousel-caption h2{
+        font-size: 32px;
+    }
+    .carousel-control-prev {
+        left: 50px !important;
+    }
+    .carousel-control-next{
+        right: 50px !important;
+    }
+    .carousel-caption h2{
+        margin: 10px 0;
+        font-size: 30px;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 60px !important;
+        height: 60px !important;
+    }
+}
+@media screen and (max-width: 567px){
+    .carousel-control-next, .carousel-control-prev {
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .carousel-control-prev {
+        left: 30px !important;
+    }
+    .carousel-control-next{
+        right: 30px !important;
+    }
+    .carousel-caption h2{
+        margin: 10px 0;
+        font-size: 26px;
+    }
+    .carousel-caption p,.carousel-caption h5{
+        font-size: 14px ;
+    }
+    .carousel-indicators button{
+        height: 3px !important;
+        margin-bottom: 15px;
+        width: 20px !important;
+    }
+}
+@media screen and (max-width: 420px){
+    .carousel-control-prev {
+        left: 15px !important;
+    }
+    .carousel-control-next{
+        right: 15px !important;
+    }
+    .carousel-caption h2{
+        margin: 10px 0;
+        font-size: 22px;
+    }
+}
