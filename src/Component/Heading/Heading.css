@@ -55,7 +55,7 @@
 @media screen and (max-width:575px){
     .heading_text h2{
         text-transform: capitalize;
-        font-size: 26px;
+        font-size: 22px;
         margin-block: 15px;
         color: #182C61;
     }

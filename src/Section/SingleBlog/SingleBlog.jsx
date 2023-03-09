@@ -46,7 +46,7 @@ const SingleBlog = () => {
                             <div className="date">
                                 <div className="date_text">
                                     <p><span><BsFillCalendar2WeekFill /></span>11 March, 2023</p>
-                                    <p><span><BsPersonLinesFill /></span> by <NavLink>Jhon Doe</NavLink></p>
+                                    <p><span><BsPersonLinesFill /></span><NavLink>Jhon Doe</NavLink></p>
                                 </div>
                                 <Button className='btn blog_btn'><NavLink>Learn More</NavLink></Button>
                             </div>
@@ -57,6 +57,8 @@ const SingleBlog = () => {
                         ))
                         }
                 </Col>
+
+
                 <Col lg='4' className='right_wrapper'>
                     <div className="blog_right">
                         <div className="input-div">
