@@ -1,5 +1,4 @@
 import { Route, Routes } from 'react-router-dom'
-import './App.css'
 import RequirAuth from './Component/RequirAuth/RequirAuth'
 import About from './Pages/About/About'
 import Blog from './Pages/Blog/Blog'
@@ -9,6 +8,7 @@ import Services from './Pages/Services/Services'
 import Singin from './Pages/SingIn/SingIn'
 import Footer from './Section/Footer/Footer'
 import Header from './Section/Header/Header'
+import NotPage from './Section/NotPage/NotPage'
 
 function App() {
   return (
@@ -26,6 +26,7 @@ function App() {
       }/>
       <Route path='/singin' element={<Singin/>}/>
       <Route path='/register' element={<Register/>}/>
+      <Route path='*' element={<NotPage/>}/>
     </Routes>
     <Footer />
     </>

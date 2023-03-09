@@ -9,7 +9,6 @@ import { NavLink } from 'react-router-dom';
 import './Singin.css'
 import GoogleSingup from '../../Component/GoogleSingUp/GoogleSingup';
 import FacebookSingup from '../../Component/Facebook/FacebookSingup';
-import Githubsingup from '../../Component/Github/Githubsingup';
 
 const Singin = () => {
     const [email, setEmail] = useState('');
@@ -55,7 +54,6 @@ const Singin = () => {
             <span className='fb_or_style'>OR</span>
             <GoogleSingup />
             <FacebookSingup />
-            <Githubsingup />
                 </Col>
             </Row>
         </Container>

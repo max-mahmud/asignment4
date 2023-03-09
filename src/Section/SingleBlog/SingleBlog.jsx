@@ -76,15 +76,15 @@ const SingleBlog = () => {
                     <div className="recent_post">
                         <h4>Recent Post</h4>
                         <div className="post_div">
-                        <img src={image1} alt="img" />
+                        <NavLink><img src={image1} alt="img"  /></NavLink>
                         <div className="post_taxt">
                             <h5>For the competitive landscape</h5>
                             <p>20 January</p>
                         </div>
                         </div>
 
-                        <div className="post_div">
-                        <img src={image2} alt="img" />
+                        <div className="post_div" >
+                        <NavLink><img src={image2} alt="img"  /></NavLink>
                         <div className="post_taxt">
                             <h5>The report combines extensive</h5>
                             <p>21 January</p>
@@ -92,9 +92,9 @@ const SingleBlog = () => {
                         </div>
 
                         <div className="post_div">
-                        <img src={image3} alt="img" />
+                        <NavLink><img src={image3} alt="img"  /></NavLink>
                         <div className="post_taxt">
-                            <h5>The report combines extensive</h5>
+                            <h5>This is a standard audio</h5>
                             <p>25 January</p>
                         </div>
                         </div>

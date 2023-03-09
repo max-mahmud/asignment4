@@ -1,7 +1,6 @@
 
 .latesh_project{
     padding: 30px 0;
-    margin: 20px 0;
 }
 .latesh_text{
     text-align: center;
@@ -61,13 +60,13 @@
     width: 50%;
 }
 
-.btn-primary{
+.latesh_card .btn-primary{
     padding: 5px 25px !important;
     background-color: #3498db !important;
     border: none !important;
     transition: .3s ease-in-out;
 }
-.btn-primary:hover{
+.latesh_card .btn-primary:hover{
     background-color: #2980b9 !important;
 }
 .latesh_card{

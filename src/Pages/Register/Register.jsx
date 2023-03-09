@@ -6,7 +6,6 @@ import  auth  from '../../Component/FireBase/Firebase.init';
 import { NavLink } from 'react-router-dom';
 import GoogleSingup from '../../Component/GoogleSingUp/GoogleSingup';
 import FacebookSingup from '../../Component/Facebook/FacebookSingup';
-import Githubsingup from '../../Component/Github/Githubsingup';
 
 const Register = () => {
     const [email, setEmail] = useState('');
@@ -55,7 +54,6 @@ const Register = () => {
                     <span className='rg_or_style'>OR</span>
                     <GoogleSingup />
                     <FacebookSingup />
-                    <Githubsingup />
                 </Col>
             </Row>
         </Container>

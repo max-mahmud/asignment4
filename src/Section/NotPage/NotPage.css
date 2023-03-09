@@ -1,0 +1,21 @@
+.not_page{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(70, 69, 69);
+}
+.not_page h2{
+    font-size: 120px;
+}
+.not_page h3{
+    font-size: 75px;
+}
+.not_page a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 15px;
+    background-color: rgb(14, 129, 238);
+    margin-top: 15px;
+}
