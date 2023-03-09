@@ -15,6 +15,10 @@ footer p{
 .newslater_btn{
     background-color: #45aaf2 !important;
     border: #45aaf2 !important;
+    transition: .2s !important;
+}
+.newslater_btn:hover{
+    background-color: #0a62a1 !important;
 }
 .footer_text a{
     color: #fff;
@@ -49,7 +53,7 @@ footer p{
 }
 .follow-icon a:hover{
     color: #45aaf2;
-    border: 2px solid #45aaf2;
+    border: 2px solid #116daf;
 }
 .resources_link{
     display: flex;
@@ -61,6 +65,10 @@ footer p{
     display: inline-block;
     max-width: 40%;
     margin-bottom: 5px;
+    transition: .2s !important;
+}
+.resources_link a:hover{
+    color: #0a62a1 !important;
 }
 
 @media screen and (max-width: 991px){
@@ -83,5 +91,9 @@ footer p{
     }
     .follow-icon{
         font-size: 22px;
+    }
+    footer h3{
+        margin-bottom: 10px;
+        font-size: 21px;
     }
 }

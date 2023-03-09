@@ -31,29 +31,32 @@
     overflow: hidden;
 }
 .trial_btn span{
-    margin-left: -162px;
+    margin-left: -165px;
     padding: 8px;
+    color: #4b7bec;
+    font-size: 18px;
+    font-weight: 600;
     background-color: #fff;
     border-radius: 50%;
     border: 4px solid rgba(40, 118, 252, 0.623);
     z-index: 111 !important;
-
+    outline: 4px solid rgb(45, 117, 224);
 }
 .trial_btn a{
     color: #fff !important;
     text-decoration: none;
 }
 .trial_left_btn{
-    padding: 5px 25px;
+    padding: 5px 30px 5px 15px;
     margin-right: 10px;
     border: none;
     color: #fff;
-    background-color: rgb(40,116,252);
+    background-color: rgb(8, 67, 168);
 }
 .trial_right_btn{
-    padding: 5px 25px;
-    margin-left: 10px;
-    background-color: rgb(2,3,129);
+    padding: 5px 15px 5px 30px;
+    margin-left: 15px;
+    background-color: rgb(8, 67, 168);
     border: none;
     color: #fff;
 }
@@ -84,6 +87,20 @@
 }
 @media screen and (max-width:466px){
     .trial_btn{
-        transform: translate(-15%);
+        transform: translate(-13%);
+    }
+    .trial_left_btn{
+        padding: 5px 30px 5px 15px;
+        margin-right: 10px;
+        font-size: 15px;
+
+    }
+    .trial_right_btn{
+        padding: 5px 15px 5px 25px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .trial_btn span{
+        margin-left: -155px;
     }
 }

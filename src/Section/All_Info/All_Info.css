@@ -85,6 +85,10 @@
         padding: 35px 0;
     }
     .all_text h2{
-        font-size: 32px;
+        font-size: 28px;
+    }
+    .all_text h4{
+        font-size: 17px;
+
     }
 }

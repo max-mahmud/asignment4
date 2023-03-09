@@ -28,7 +28,7 @@
     color: rgba(0, 0, 0, 0.438);
 }
 .date{
-    margin-top: 10px;
+    margin-top: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,6 +72,15 @@
 .blog_wrapper{
     padding: 20px 3px;
 }
+
+
+
+
+
+
+
+
+
 
 .blog_right{
     padding: 25px 15px;
@@ -130,6 +139,14 @@
 .right_wrapper h4{
     margin-top: 30px;
 }
+
+
+
+
+
+
+
+
 @media screen and (max-width:991px){
     .date{
         margin-top: 0px;
