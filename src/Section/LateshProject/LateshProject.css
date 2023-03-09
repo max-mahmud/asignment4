@@ -1,0 +1,81 @@
+
+.latesh_project{
+    padding: 30px 0;
+    margin: 20px 0;
+}
+.latesh_text{
+    text-align: center;
+}
+.latesh_img img{
+    width: 100%;
+    height: 100%;
+}
+.latesh_card{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.latesh_text h2{
+    color: #130f40;
+}
+.latesh_text p{
+    color: rgba(0, 0, 0, 0.445);
+}
+.gallary-img{
+    margin-bottom: 15px;
+}
+.gallary-img img{
+    width: 100%;
+    height: 100%;
+
+}
+.galleryItem{
+    position: relative;
+    cursor: pointer;
+}
+.galleryItem::after{
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.411);
+    transition: .2s ease-in-out;
+}
+.galleryItem:hover::after{
+    width: 50%;
+}
+
+.galleryItem::before{
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.411);
+    transition: .2s ease-in-out;
+}
+.galleryItem:hover::before{
+    width: 50%;
+}
+
+.btn-primary{
+    padding: 5px 25px !important;
+    background-color: #3498db !important;
+    border: none !important;
+    transition: .3s ease-in-out;
+}
+.btn-primary:hover{
+    background-color: #2980b9 !important;
+}
+.latesh_card{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:576px){
+    .btn-primary{
+        padding: 5px 15px !important;
+    }
+}

@@ -1,0 +1,66 @@
+export const GalleryData = [
+  {
+      id:"1215",
+      title:"app",
+      image:"https://images.pexels.com/photos/242492/pexels-photo-242492.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+      id:"656",
+      title:"card",
+      image:"https://images.pexels.com/photos/270700/pexels-photo-270700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+
+  },
+  {
+      id:"3215",
+      title:"design",
+      image:"https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&w=600"
+
+  },
+  {
+      id:"5254",
+      title:"card",
+      image:"https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+  },
+  {
+      id:"345",
+      title:"app",
+      image:"https://images.pexels.com/photos/38271/ipad-map-tablet-internet-38271.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+      id:"2566",
+      title:"app",
+      image:"https://images.pexels.com/photos/265685/pexels-photo-265685.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+      id:"1542",
+      title:"app",
+      image:"https://images.pexels.com/photos/2228569/pexels-photo-2228569.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+      id:"54215",
+      title:"card",
+      image:"https://images.pexels.com/photos/10845119/pexels-photo-10845119.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+  },
+  {
+    id:"2566455",
+    title:"design",
+    image:"https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=600"
+},
+{
+    id:"154252",
+    title:"app",
+    image:"https://images.pexels.com/photos/6347711/pexels-photo-6347711.jpeg?auto=compress&cs=tinysrgb&w=600"
+},
+{
+    id:"5421455",
+    title:"card",
+    image:"https://images.pexels.com/photos/5380618/pexels-photo-5380618.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+},
+{
+    id:"542145558",
+    title:"design",
+    image:"https://images.pexels.com/photos/38519/macbook-laptop-ipad-apple-38519.jpeg?auto=compress&cs=tinysrgb&w=600"
+}
+  
+]
+export default GalleryData

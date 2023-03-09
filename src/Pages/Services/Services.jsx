@@ -5,6 +5,7 @@ import All_Info from '../../Section/All_Info/All_Info'
 import serviceImage from '../../Image/service.jpg'
 import Service_offer from '../../Section/Service_offer/Service_offer'
 import WhyUs from '../../Section/WhyUs/WhyUs'
+import LateshProject from '../../Section/LateshProject/LateshProject'
 
 const Services = () => {
   return (
@@ -15,6 +16,7 @@ const Services = () => {
     is our concern' all_sub_heading='Services' all_text="Although subscribers are welcome to come to our downtown office and pick up newspapers that did not get delivered, we know that isn’t an easy option for many of you. Some of you are retired and/or live outside of town."/>
     <Service_offer/>
     <WhyUs />
+    <LateshProject />
     </>
   )
 }

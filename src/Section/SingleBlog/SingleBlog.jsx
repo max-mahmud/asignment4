@@ -4,7 +4,6 @@ import './SingleBlog.css'
 import { AiOutlineSearch } from "react-icons/ai";
 import { NavLink } from 'react-router-dom'
 import { BsFillCalendar2WeekFill,BsPersonLinesFill } from "react-icons/bs";
-import PaginationBtn from '../../Component/pagination/PaginationBtn'
 import image1 from '../../Image/bn2.jpg'
 import image2 from '../../Image/all-bg.jpg'
 import image3 from '../../Image/bn3.jpg'
@@ -57,7 +56,6 @@ const SingleBlog = () => {
                            </>
                         ))
                         }
-                    <PaginationBtn />
                 </Col>
                 <Col lg='4' className='right_wrapper'>
                     <div className="blog_right">
