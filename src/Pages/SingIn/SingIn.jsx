@@ -9,6 +9,7 @@ import { NavLink } from 'react-router-dom';
 import './Singin.css'
 import GoogleSingup from '../../Component/GoogleSingUp/GoogleSingup';
 import FacebookSingup from '../../Component/Facebook/FacebookSingup';
+import Helmet from '../../Component/Helmet/Helmet';
 
 const Singin = () => {
     const [email, setEmail] = useState('');
@@ -33,6 +34,8 @@ const Singin = () => {
     }
 
     return (
+        <>
+            <Helmet title="SingIn"/>
         <section className="singin">
             <Container >
             <Row >
@@ -58,7 +61,7 @@ const Singin = () => {
             </Row>
         </Container>
         </section>
-        
+        </>
     )
 }
 

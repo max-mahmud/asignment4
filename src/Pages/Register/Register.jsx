@@ -6,6 +6,7 @@ import  auth  from '../../Component/FireBase/Firebase.init';
 import { NavLink } from 'react-router-dom';
 import GoogleSingup from '../../Component/GoogleSingUp/GoogleSingup';
 import FacebookSingup from '../../Component/Facebook/FacebookSingup';
+import Helmet from '../../Component/Helmet/Helmet'
 
 const Register = () => {
     const [email, setEmail] = useState('');
@@ -29,6 +30,8 @@ const Register = () => {
   }
 
   return (
+    <>
+    <Helmet title="Register"/>
     <section className="register">
         <Container>
             <Row>
@@ -58,6 +61,7 @@ const Register = () => {
             </Row>
         </Container>
     </section>
+    </>
   )
 }
 
