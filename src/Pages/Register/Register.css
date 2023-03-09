@@ -22,7 +22,7 @@
     font-weight: 500;
 }
 .my-form p{
-    font-size: 16px ;
+    font-size: 18px ;
     font-weight: 500;
 }
 .register .form_btn{
@@ -42,7 +42,7 @@
     top: 48%;
     left: 0;
     background-color: #fc5c65;
-    width: 45%;
+    width: 44%;
     height: 3px;
 }
 .rg_or_style::before{
@@ -51,7 +51,7 @@
     top: 48%;
     right: 0;
     background-color: #fc5c65;
-    width: 45%;
+    width: 44%;
     height: 3px;
 }
 .rg_form_btn{
@@ -77,5 +77,15 @@
 @media screen and (max-width: 576px) {
     .register{
         padding: 20px;
+    }
+    .rg_or_style::after{
+        width: 40%;
+    }
+    .rg_or_style::before{
+        width: 40%;
+    }
+    .my-form p{
+        font-size: 16px ;
+        font-weight: 400;
     }
 }

@@ -21,5 +21,6 @@
     .fb_btn{
         width: 100%;
         margin-left: 0%;
+        font-size: 15px !important;
     }
 }

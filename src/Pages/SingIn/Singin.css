@@ -76,4 +76,20 @@
     .singin{
         padding: 20px;
     }
+    .fb_or_style::after{
+        width: 40%;
+        height: 3px;
+    }
+    .fb_or_style::before{
+        width: 40%;
+        height: 3px;
+    }
+    .my_form p{
+        font-size: 16px ;
+        font-weight: 400;
+    }
+    .my-link{
+        display: block !important;
+        margin-left: 0px;
+    }
 }

@@ -74,6 +74,15 @@
         font-size: 35px;
         margin-block: 10px;
     }
+    .all_text_wrapper{
+        text-align: center;
+    }
+    .all_text h4::after{
+        height: 2px;
+    }
+    .all_text h4::before{
+        height: 2px;
+    }
 }
 @media screen and (max-width: 575px){
     .all_img::after{
@@ -89,6 +98,5 @@
     }
     .all_text h4{
         font-size: 17px;
-
     }
 }
