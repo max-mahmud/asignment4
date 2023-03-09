@@ -8,15 +8,29 @@
 }
 
 .svr_btn{
-    padding: 5px 25px !important;
+    padding: 4px 25px !important;
     border-radius: 3px !important;
     background-color: #45aaf2!important;
-    border: #45aaf2 !important;
+    border: 1.5px solid #45aaf2 !important;
+    transition: .25s ease-in-out !important;
+}
+.svr_btn:hover{
+
+    background-color: transparent !important;
+    border: 1.5px solid #45aaf2 !important;
+    color: #45aaf2 !important;
 }
 .service_item{
     box-shadow: 2px 2px 6px rgb(201, 200, 200);
     margin-top: 15px;
     border-radius: 4px ;
+}
+.service_item h4{
+    color:#182C61;
+}
+.service_item p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.473);
 }
 .srv-body{
     padding: 8px;

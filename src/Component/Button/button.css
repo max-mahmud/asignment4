@@ -5,6 +5,10 @@
     font-size: 18px !important;
     background-color: #45aaf2 !important;
     border: #45aaf2 !important;
+    transition: .2s ease-in-out !important;
+}
+.my_btn:hover{
+    background-color: #147ab9 !important;
 }
 @media screen and (max-width: 991px){
     .my_btn{

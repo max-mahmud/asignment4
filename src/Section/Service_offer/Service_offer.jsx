@@ -26,7 +26,7 @@ const Service_offer = () => {
                     <div className="srv-body">
                     <h4>{item.heading}</h4>
                       <p>{item.text}</p>
-                      <Button className='btn svr_btn' as={Link} to='/service'>Click</Button>
+                      <Button className='btn svr_btn' as={Link} to='/service'>Read more</Button>
                       </div>
 
                   </div>

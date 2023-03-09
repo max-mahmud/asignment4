@@ -1,0 +1,140 @@
+.single_blog{
+    padding: 25px 0;
+    margin: 20px 0;
+}
+.blog_wrapper{
+    padding: 5px;
+    box-shadow: 2px 2px 6px rgb(185, 184, 184);
+}
+.blog_img_wrapper{
+    padding: 5px;
+    border: 2px solid rgb(202, 202, 202);
+}
+.blog_wrapper2{
+    margin-bottom: 35px;
+}
+.blog_img img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.blog_text h4{
+    font-size: 16px ;
+    color: #40407a;
+    font-weight: 600;
+}
+.blog_text p{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.438);
+}
+.date{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.date_text{
+    display: flex;
+    gap: 25px;
+}
+.date_text p span svg{
+    font-size: 16px;
+    color: #30336b;
+    margin-right: 5px;
+}
+.date p{
+    margin-bottom: 0px !important;
+    font-size: 13px;
+}
+.date_text p a{
+    text-decoration: none;
+}
+.blog_btn a{
+    color: #227093 !important;
+    text-decoration: none;
+    font-size: 14px;
+    transition: .2s ease-in-out !important;
+}
+.blog_btn{
+    background-color: transparent!important;
+    transition: .2s ease-in-out !important;
+    border: none !important;
+    padding: 3px 8px !important;
+    border-radius: 2px !important;
+    border: 1px solid #227093 !important;
+}
+.blog_btn:hover {
+    background-color: #227093 !important;
+}
+.blog_btn:hover a{
+    color: #fff !important;
+}
+.blog_wrapper{
+    padding: 20px 3px;
+}
+
+.blog_right{
+    padding: 25px 15px;
+    box-shadow: 2px 2px 6px rgb(161, 160, 160);
+}
+.blog_right button svg{
+    font-size: 25px;
+    font-weight: 900;
+}
+.catagory{
+    margin: 15px 0;
+}
+.catagory a{
+    display: block;
+    color: #30336b;
+    text-decoration: none;
+    margin: 5px 0;
+}
+.catagory a span{
+    color: rgba(131, 130, 130, 0.664);
+}
+.recent_post img{
+    width: 25%;
+    object-fit: cover;
+    padding: 5px;
+    border: 1px solid rgb(202, 202, 202);
+}
+.post_div{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+.post_taxt h5{
+    font-size: 16px;
+}
+.post_taxt p{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.329);
+}
+.tags a{
+    color: rgba(0, 0, 0, 0.521);
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid rgb(170, 168, 168);
+}
+.tags_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.right_wrapper h4{
+    margin-top: 30px;
+}
+@media screen and (max-width:991px){
+    .date{
+        margin-top: 0px;
+    }
+    .blog_right{
+        margin-top: 50px !important;
+    }
+    .right_wrapper{
+        padding: 0 !important;
+    }
+
+}
