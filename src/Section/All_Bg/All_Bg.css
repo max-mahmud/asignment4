@@ -1,7 +1,7 @@
 
 .all_bg img{
     width: 100%;
-    height: 50vh;
+    height: 45vh;
     object-fit: cover;
     object-position: center;
 }
@@ -21,7 +21,7 @@
     text-transform: uppercase;
     position: absolute;
     font-size: 40px;
-    top: 45%;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 44;
@@ -31,7 +31,7 @@
     text-transform: capitalize;
     position: absolute;
     font-size: 18px;
-    top: 60%;
+    top: 63%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 44;
@@ -40,5 +40,27 @@
 @media screen and (max-width:991px){
     .all_bg h2{
         font-size: 32px;
+    }
+    .all_bg img{
+        height: 40vh;
+    }
+    .all_bg h2{
+        top: 50%;
+    }
+    .all_bg h4{
+        top: 65%;
+    }
+}
+@media screen and (max-width:576px){
+    .all_bg img{
+        height: 35vh;
+    }
+    .all_bg h2{
+        font-size: 28px;
+        top: 55%;
+    }
+    .all_bg h4{
+        font-size: 16px;
+        top: 70%;
     }
 }

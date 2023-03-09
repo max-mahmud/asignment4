@@ -97,3 +97,8 @@ footer p{
         font-size: 21px;
     }
 }
+@media screen and (max-width: 576px){
+    .follow-icon{
+        font-size: 18px;
+    }
+}
