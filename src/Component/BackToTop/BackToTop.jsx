@@ -5,7 +5,7 @@ import './BackToTop.css'
 const BackToTop = () => {
   return (
     <div>
-    <ScrollToTop smooth className='topBtn' color='#fff'/>
+    <ScrollToTop smooth className='topBtn' color='#fff' top={200}/>
   </div>
   )
 }
