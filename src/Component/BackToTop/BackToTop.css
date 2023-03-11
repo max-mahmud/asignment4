@@ -1,0 +1,19 @@
+.topBtn{
+    background-color: #45aaf2 !important;
+    border-radius: 50% !important;
+    width: 50px !important;
+    height: 50px !important;
+}
+.topBtn svg{
+    width: 20px !important;
+    height: 20px !important;
+}
+@media screen and (max-width:576px){
+    .topBtn{
+        right: 6% !important;
+    }
+    .topBtn{
+        width: 40px !important;
+        height: 40px !important;
+    }
+}

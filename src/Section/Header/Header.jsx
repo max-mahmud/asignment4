@@ -6,6 +6,7 @@ import Icon from '../../Component/Logo/Icon'
 import { useAuthState } from 'react-firebase-hooks/auth'
 import auth from '../../Component/FireBase/Firebase.init';
 import { signOut } from 'firebase/auth';
+import BackToTop from '../../Component/BackToTop/BackToTop'
 
 
 const Header = () => {
@@ -13,6 +14,9 @@ const Header = () => {
   const handleChange=()=>signOut(auth);
   return (
     <>
+    {/* Back to Top Button */}
+    <BackToTop />
+    {/* Header area */}
     <Navbar bg="light" expand="lg" className='fixed-top'>
       <Container >
         <Navbar.Brand as={Link} to="/" ><Icon /></Navbar.Brand>

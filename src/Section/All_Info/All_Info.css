@@ -86,12 +86,7 @@
 }
 @media screen and (max-width: 575px){
     .all_img::after{
-        bottom: 2%;
-        right: 2%;
-        border: 2px solid #45aaf2;
-    }
-    .all_hero{
-        padding: 35px 0;
+        border: none;
     }
     .all_text h2{
         font-size: 28px;
