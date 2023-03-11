@@ -1,6 +1,6 @@
 import React from 'react'
 import './icon.css'
-import icon from '../../../public/Icon/icons8-x-96.png'
+import icon from '../../../public/Icon/icons8-x-96 (3).png'
 
 const Icon = () => {
   return (

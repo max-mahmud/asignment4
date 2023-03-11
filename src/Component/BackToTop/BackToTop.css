@@ -1,5 +1,5 @@
 .topBtn{
-    background-color: #45aaf2 !important;
+    background-color: #4b7bec !important;
     border-radius: 50% !important;
     width: 50px !important;
     height: 50px !important;
@@ -7,6 +7,9 @@
 .topBtn svg{
     width: 20px !important;
     height: 20px !important;
+}
+.topBtn:active{
+    background-color: #3867d6!important;
 }
 @media screen and (max-width:576px){
     .topBtn{

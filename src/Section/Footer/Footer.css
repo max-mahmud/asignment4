@@ -13,12 +13,12 @@ footer p{
     margin-bottom: 10px;
 }
 .newslater_btn{
-    background-color: #45aaf2 !important;
-    border: #45aaf2 !important;
+    background-color: #4b7bec !important;
+    border: #4b7bec !important;
     transition: .2s !important;
 }
 .newslater_btn:hover{
-    background-color: #0a62a1 !important;
+    background-color: #3867d6 !important;
 }
 .footer_text a{
     color: #fff;
@@ -52,8 +52,8 @@ footer p{
     transition: all .3s;
 }
 .follow-icon a:hover{
-    color: #45aaf2;
-    border: 2px solid #116daf;
+    color: #3867d6;
+    border: 2px solid #3867d6;
 }
 .resources_link{
     display: flex;
@@ -68,7 +68,7 @@ footer p{
     transition: .2s !important;
 }
 .resources_link a:hover{
-    color: #0a62a1 !important;
+    color: #3867d6 !important;
 }
 
 @media screen and (max-width: 991px){

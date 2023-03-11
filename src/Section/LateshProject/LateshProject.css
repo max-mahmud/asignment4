@@ -57,12 +57,12 @@
 
 .latesh_card .btn-primary{
     padding: 5px 25px !important;
-    background-color: #3498db !important;
+    background-color: #4b7bec !important;
     border: none !important;
     transition: .3s ease-in-out;
 }
 .latesh_card .btn-primary:hover{
-    background-color: #2980b9 !important;
+    background-color: #3867d6 !important;
 }
 .latesh_card{
     display: flex;

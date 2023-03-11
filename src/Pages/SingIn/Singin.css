@@ -9,17 +9,17 @@
 .my-link{
     display: inline-block !important;
     margin-left: 11px;
-    color: #2d98da !important;
+    color: #4b7bec !important;
 }
 .my_form{
     padding: 30px !important;
-    border-top: 5px solid #45aaf2;
+    border-top: 5px solid #4b7bec;
     box-shadow: 2px 2px 7px rgb(185, 185, 185);
     margin-bottom: 20px !important;
 }
 .my_form h2{
     margin-bottom: 20px ;
-    color: #45aaf2;
+    color: #4b7bec;
     font-size: 36px ;
     font-weight: 500;
 }
@@ -28,9 +28,9 @@
     font-weight: 500;
 }
 .fb_form_btn{
-    background-color: #45aaf2 !important;
-    border: #45aaf2 2px solid !important;
-    outline: #45aaf2 !important;
+    background-color: #4b7bec !important;
+    border: #4b7bec 2px solid !important;
+    outline: #4b7bec !important;
     width: 100%;
     font-size: 17px !important;
     padding: 4px 10px !important;
@@ -44,7 +44,7 @@
     padding: 4px 10px !important;
 }
 .singin.form-control:focus {
-    border-color: #45aaf2 !important;
+    border-color: #4b7bec !important;
 }
 .fb_or_style{
     display: block;
@@ -59,7 +59,7 @@
     content: '';
     top: 48%;
     left: 0;
-    background-color: #45aaf2;
+    background-color: #4b7bec;
     width: 45%;
     height: 3px;
 }
@@ -68,7 +68,7 @@
     content: '';
     top: 48%;
     right: 0;
-    background-color: #45aaf2;
+    background-color: #4b7bec;
     width: 45%;
     height: 3px;
 }

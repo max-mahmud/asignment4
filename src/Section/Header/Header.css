@@ -9,15 +9,15 @@
     padding: 8px 0;
 }
 .header_btn{
-    background-color: #45aaf2 !important;
-    border: #45aaf2!important;
+    background-color: #4b7bec !important;
+    border: #4b7bec!important;
     font-size: 17px !important;
     border-radius: 3px !important;
     padding: 6px 20px !important;
     transition: .2s ease-in-out !important;
 }
 .header_btn:hover{
-    background-color: #2d98da !important;
+    background-color: #3867d6 !important;
 }
 .navbar-nav {
     align-items: center;
@@ -31,12 +31,12 @@
     font-size: 20px ;
 }
 .navbar-nav a:hover{
-    color: #45aaf2 !important;
+    color: #4b7bec !important;
 }
 .navbar-nav .active{
     margin-bottom: -2px ;
-    border-bottom: 2px solid #45aaf2;
-    color: #45aaf2 !important;
+    border-bottom: 2px solid #4b7bec;
+    color: #4b7bec !important;
 }
 .navbar-nav .active:last-child{
     border-bottom: 0px solid transparent;

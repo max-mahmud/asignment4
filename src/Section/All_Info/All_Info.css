@@ -12,7 +12,7 @@
     content: '';
     bottom: 7%;
     right: 5%;
-    border: 5px solid #45aaf2;
+    border: 5px solid #4b7bec;
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -26,7 +26,7 @@
 }
 .all_text h4{
     text-transform: uppercase;
-    color: #45aaf2;
+    color: #4b7bec;
     position: relative;
     display: inline-block;
 }
@@ -35,7 +35,7 @@
     position: absolute;
     width: 50%;
     height: 3px;
-    background-color: #45aaf2;
+    background-color: #4b7bec;
     top: 65%;
     left: 105%;
 }
@@ -44,7 +44,7 @@
     position: absolute;
     width: 30%;
     height: 3px;
-    background-color: #45aaf2;
+    background-color: #4b7bec;
     top: 35%;
     left: 105%;
 }
@@ -65,7 +65,7 @@
     .all_img::after{
         bottom: 6%;
         right: 4%;
-        border: 4px solid #45aaf2;
+        border: 4px solid #4b7bec;
     }
     .all_hero{
         padding: 55px 0;
