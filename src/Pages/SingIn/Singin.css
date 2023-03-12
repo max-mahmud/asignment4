@@ -5,6 +5,9 @@
     justify-content: center;
     align-items: center;
 }
+#message-div{
+    color: #4b7bec;
+}
 
 .my-link{
     display: inline-block !important;
@@ -12,7 +15,7 @@
     color: #4b7bec !important;
 }
 .my_form{
-    padding: 30px !important;
+    padding: 20px 25px !important;
     border-top: 5px solid #4b7bec;
     box-shadow: 2px 2px 7px rgb(185, 185, 185);
     margin-bottom: 20px !important;

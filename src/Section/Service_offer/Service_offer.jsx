@@ -13,8 +13,8 @@ const Service_offer = () => {
   return (
     <>
     <Heading of_sub_heading="Service offer" of_heading="What we offer" of_text="Complete mourning is the greatest mass and element. Until the casino is flattering. Mauris or Euismod wants. But football fans need to do their homework. Everyone has a home, mourning from always on, always and no laughter."/>
-      <section className="offer mb-5 mt-3">
-        <Container>
+      <section className=" service_area bg-light">
+        <Container >
             <Row >
                {
                 sdata.map((item)=>(

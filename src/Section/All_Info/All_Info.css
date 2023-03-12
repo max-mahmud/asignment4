@@ -1,5 +1,5 @@
 .all_hero{
-    padding: 70px 0;
+    padding: 90px 0 60px 0;
 }
 .all_img img{
     width: 100%;
@@ -68,7 +68,7 @@
         border: 4px solid #4b7bec;
     }
     .all_hero{
-        padding: 55px 0;
+        padding: 65px 0;
     }
     .all_text h2{
         font-size: 35px;

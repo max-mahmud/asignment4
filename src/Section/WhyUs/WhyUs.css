@@ -58,7 +58,8 @@
 .Why_text ul li{
     margin-bottom: 7px;
     font-size: 15px;
-    color: rgba(0, 0, 0, 0.521);
+    color: rgba(0, 0, 0, 0.67);
+    font-weight: 500;
 }
 .Why_text ul li span svg{
     margin-right: 10px;

@@ -1,7 +1,7 @@
 .google_btn{
     background-color: transparent !important;
-    border:2px solid #fd9644 !important;
-    color: #fd9644 !important;
+    border:2px solid #4b7bec !important;
+    color: #4b7bec !important;
     padding: 4px 10px !important;
     width: 100%;
     margin-bottom: 15px;
@@ -9,9 +9,9 @@
     transition: .3s ease-in-out !important;
 }
 .google_btn:hover{
-    background-color: transparent !important;
-    border:2px solid #f18227 !important;
-    color: #d8680c !important;
+    background-color: #4b7bec !important;
+    border:2px solid #4b7bec !important;
+    color: #fcfdff !important;
 }
 .google_p{
     font-size: 17px;

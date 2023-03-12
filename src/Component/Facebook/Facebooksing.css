@@ -4,17 +4,17 @@
 }
 .fb_btn{
     background-color: transparent !important;
-    border: 2px solid #45aaf2 !important;
-    color: #45aaf2 !important;
+    border: 2px solid #4b7bec !important;
+    color: #4b7bec !important;
     padding: 4px 10px !important;
     width: 100%;
     border-radius: 2px !important;
     transition: .3s ease-in-out !important;
 }
 .fb_btn:hover{
-    background-color: transparent !important;
-    border: 2px solid #196fac !important;
-    color: #176ba7 !important;
+    background-color: #4b7bec !important;
+    border: 2px solid #4b7bec !important;
+    color: #f0f0f1 !important;
 }
 
 @media screen and (max-width:575px){

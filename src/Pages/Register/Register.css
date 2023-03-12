@@ -6,18 +6,18 @@
     align-items: center;
 }
 .massageDiv{
-    color: #2bcbba !important;
+    color: #4b7bec !important;
 }
 
 .my-form{
-    padding: 30px !important;
-    border-top: 5px solid #eb3b5a;
+    padding: 20px 25px !important;
+    border-top: 5px solid #4b7bec;
     box-shadow: 2px 2px 7px rgb(180, 182, 182);
     margin-bottom: 20px !important;
 }
 .my-form h2{
     margin-bottom: 20px ;
-    color: #eb3b5a !important;
+    color: #4b7bec !important;
     font-size: 35px ;
     font-weight: 500;
 }
@@ -41,7 +41,7 @@
     content: '';
     top: 48%;
     left: 0;
-    background-color: #fc5c65;
+    background-color: #4b7bec;
     width: 44%;
     height: 3px;
 }
@@ -50,14 +50,14 @@
     content: '';
     top: 48%;
     right: 0;
-    background-color: #fc5c65;
+    background-color: #4b7bec;
     width: 44%;
     height: 3px;
 }
 .rg_form_btn{
-    background-color: #fc5c65 !important;
-    border: #fc5c65 2px solid !important;
-    outline: #fc5c65 !important;
+    background-color: #4b7bec !important;
+    border: #4b7bec 2px solid !important;
+    outline: #4b7bec !important;
     width: 100%;
     font-size: 17px !important;
     padding: 4px 10px !important;
@@ -68,7 +68,7 @@
     font-weight: 500;
 }
 .register .form-control:focus {
-    border-color: #45aaf2 !important;
+    border-color: #4b7bec !important;
 }
 .register .form-control{
     padding: 4px 10px !important;
