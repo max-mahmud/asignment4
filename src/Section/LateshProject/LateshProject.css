@@ -83,6 +83,9 @@
         gap: 7px;
     }
     .latesh_project{
-        padding: 40px 0;
+        padding: 20px 0;
+    }
+    .gallary-img{
+        padding: 0;
     }
 }

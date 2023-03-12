@@ -36,7 +36,7 @@ const LateshProject = () => {
             data.map((item)=> 
                 <Col lg={3} md={6} className="gallary-img" key={item.id} as={Link} to="/service">
                 <div  className="galleryItem">
-                <img src={item.image  } />
+                <img src={item.image  } alt="image" className="img-thumbnail"/>
                 </div> 
                 </Col>
                 )

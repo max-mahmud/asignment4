@@ -89,7 +89,7 @@
 }
 @media screen and (max-width:466px){
     .trial_btn{
-        transform: translate(-13%);
+        transform: translate(-14%);
     }
     .trial_left_btn{
         padding: 5px 30px 5px 15px;
