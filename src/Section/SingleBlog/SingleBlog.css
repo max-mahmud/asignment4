@@ -7,7 +7,11 @@
     padding: 30px 10px;
     margin-bottom: 35px;
 }
+.img-thumbnail{
+    border-radius: 0 !important;
+}
 .blog_img img{
+    height: 100%;
     width: 100%;
     object-fit: cover;
     object-position: center;
@@ -20,6 +24,7 @@
 .blog_text p{
     font-size: 13px;
     color: rgba(0, 0, 0, 0.438);
+    text-align: justify;
 }
 .date{
     margin-top: 15px;
@@ -39,6 +44,7 @@
 .date p{
     margin-bottom: 0px !important;
     font-size: 13px;
+
 }
 .date_text p a{
     text-decoration: none;

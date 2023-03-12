@@ -61,6 +61,5 @@ export const GalleryData = [
     title:"design",
     image:"https://images.pexels.com/photos/38519/macbook-laptop-ipad-apple-38519.jpeg?auto=compress&cs=tinysrgb&w=600"
 }
-  
 ]
 export default GalleryData

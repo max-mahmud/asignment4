@@ -3,6 +3,7 @@ import { Button, Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Heading from '../../Component/Heading/Heading'
 import './Service_offer.css'
+import { AiFillAccountBook } from "react-icons/ai";
 const Service_offer = () => {
   const [sdata, setData] =useState([])
   useEffect(()=>{
@@ -21,7 +22,7 @@ const Service_offer = () => {
                   <Col lg={4} md={6} key={item.id}>
                   <div className="service_item">
                     <div className="img_div">
-                    <img className="img-cluid" src={item.image} alt="img" />
+                    <img className="img-thumbnail" src={item.image} alt="img" />
                     </div>
                     <div className="srv-body">
                     <h4>{item.heading}</h4>

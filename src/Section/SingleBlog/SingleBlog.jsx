@@ -30,7 +30,7 @@ const SingleBlog = () => {
                             <Col md={6} >
                                 <div className="blog_img_wrapper">
                                 <div className="blog_img">
-                                    <img src={item.image} alt="img" />
+                                    <img src={item.image} className="img-thumbnail" alt="img" />
                                 </div>
                                 </div>
                             </Col>
