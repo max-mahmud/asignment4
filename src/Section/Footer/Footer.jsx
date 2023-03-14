@@ -48,9 +48,9 @@ const Footer = () => {
                     <h3>Follow Us</h3>
                     <p>Let us be social</p>
                     <div className="follow-icon">
-                        <a href="https://www.facebook.com/" target={'_blank'} ><FaFacebookF /></a>
+                        <a href="https://www.facebook.com/Maxmahmud24" target={'_blank'} ><FaFacebookF /></a>
                         <a href="https://bd.linkedin.com/" target={'_blank'}><FaLinkedinIn /></a>
-                        <a href="https://github.com/" target={'_blank'}><FaGithub /></a>
+                        <a href="https://github.com/max-mahmud" target={'_blank'}><FaGithub /></a>
                     </div>
                 </div>
             </Col>
