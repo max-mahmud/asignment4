@@ -141,9 +141,6 @@
     .blog_right{
         margin-top: 50px !important;
     }
-    .right_wrapper{
-        padding: 0 !important;
-    }
 
 }
 @media screen and (max-width:576px){

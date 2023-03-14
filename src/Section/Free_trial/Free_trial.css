@@ -1,5 +1,5 @@
 .free_trial{
-    padding: 30px 0;
+    padding: 60px 0;
 }
 .trial_img{
     display: flex;
@@ -79,7 +79,7 @@
         transform: translate(-11%);
     }
     .free_trial{
-        padding: 10px 0;
+        padding: 35px 0;
     }
 }
 @media screen and (max-width:575px){

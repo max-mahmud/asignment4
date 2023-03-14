@@ -24,8 +24,7 @@ const SingleBlog = () => {
                 <Col lg='8'  className="blog_wrapper">
                 {
                         bdata.map((item)=>(
-                           <>
-                            <div className="blog_wrapper2">
+                            <div className="blog_wrapper2" key={item.id} >
                             <Row >
                             <Col md={6} >
                                 <div className="blog_img_wrapper">
@@ -53,7 +52,6 @@ const SingleBlog = () => {
                             </Col>
                         </Row>
                             </div>
-                           </>
                         ))
                         }
                 </Col>

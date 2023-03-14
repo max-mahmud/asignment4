@@ -1,5 +1,7 @@
+
 .carousel img{
-    height: 100vh;
+    margin-top: 69px ;
+    height: calc(100vh - 68px);
     width: 100vw;
     z-index: -99;
     object-fit: cover;
